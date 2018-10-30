@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Friend Finder Survey</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Survey Questions</h1>
+            <hr>
+        </div>
+        <h2>About You</h2>
+        <div class="form-group">
+                <label for="survey-name">Name:</label>
+                <input type="text" class="form-control" id="survey-name">
+        </div>
+        <div class="form-group">
+            <label for="survey-photo">Link to Photo Image</label>
+            <input type="text" class="form-control" id="survey-photo">
+        </div>
+        <hr>
+            <h4>Question 1</h4>
+            <h6>Question Goes Here</h4>
+            <select name="q1" id="q1" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+            
+            <h4>Question 2</h4> 
+            <h6>Question Goes Here</h4>
+            <select name="q2" id="q2" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+            
+            <h4>Question 3</h4>
+            <h6>Question Goes Here</h6>
+            <select name="q3" id="q3" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <h4>Question 4</h4>
+            <h6>Question Goes Here</h6>
+            <select name="q4" id="q4" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <h4>Question 5</h4>
+            <h6>Question Goes Here</h6>
+            <select name="q5" id="q5" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <h4>Question 6</h4>
+            <h6>Question Goes Here</h6>
+            <select name="q6" id="q6" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <h4>Question 7</h4>
+            <h6>Question Goes here</h6>
+            <select name="q7" id="q7" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <h4>Question 8</h4>
+            <h6>Question goes here</h6>
+            <select name="q8" id="q8" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <h4>Question 9</h4>
+            <h6>Question Goes Here</h6>
+            <select name="q9" id="q9" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <h4>Question 10</h4>
+            <h6>Question Goes Here</h6>
+            <select name="q10" id="q10" class="form-control form-control-sm w-25">
+                <option value></option>
+                <option value="1">1 Strongly Disagree</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 Strongly Agree</option>
+            </select>
+
+            <button type="button" id="submit" class="btn btn-primary btn-lg btn-block mt-4">Text</button>
+
+    </div>
+
+    <div id="result-modal" tabindex="-1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Best Match</h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img src="" id="match-img" alt="No Image Available">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#submit").on("click", function(event) {
+            event.preventDefault();
+    
+
+            function validateForm() {
+                var isValid = true;
+            
+            $(".form-control").each(function() {
+                if ($(this).val() === "") {
+                    isValid = false;
+                
+                }
+            });
+            
+            
+            $(".chosen-select").each(function() {
+                if ($(this).val() === "") {
+                
+                    isValid = false;
+                }
+            });
+                return isValid;
+            }
+
+
+
+            if (validateForm()) {
+                var userData = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                    ]
+                };
+            // AJAX post the data to the friends API.
+            $.post("/api/friends", userData, function(data) {
+                // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                $("#match-name").text(data.name);
+                $("#match-img").attr("src", data.photo);
+                // Show the modal with the best match
+                $("#result-modal").modal("toggle");
+            });
+            } else {
+            alert("Please fill out all fields before submitting!");
+            }
+        });
+
+
+    </script>
+</body>
+</html>
